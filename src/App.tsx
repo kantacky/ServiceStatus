@@ -66,7 +66,12 @@ function App() {
             </Grid>
           </Grid>
 
-          <Tabs value={tab} onChange={handleChangeTabs}>
+          <Tabs
+            value={tab}
+            onChange={handleChangeTabs}
+            variant="scrollable"
+            scrollButtons="auto"
+          >
             <Tab label="Kantacky" {...a11yProps(0)} />
             <Tab label="Noiby" {...a11yProps(1)} />
             <Tab label="Keiz!" {...a11yProps(2)} />
