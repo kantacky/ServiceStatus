@@ -10,47 +10,19 @@ export const Kantacky = () => {
         </Grid>
 
         <Grid item xs={12} md={6}>
-          <ServiceCard
-            name="Supporters"
-            domain="supporters.kantacky.com"
-            state={2}
-          />
-        </Grid>
-
-        <Grid item xs={12} md={6}>
-          <ServiceCard name="Database" domain="db.kantacky.com" state={0} />
-        </Grid>
-
-        <Grid item xs={12} md={6}>
           <ServiceCard name="REST API" domain="api.kantacky.com" state={0} />
-        </Grid>
-
-        <Grid item xs={12} md={6}>
-          <ServiceCard
-            name="Identity Provider"
-            domain="idp.kantacky.com"
-            state={2}
-          />
-        </Grid>
-
-        <Grid item xs={12} md={6}>
-          <ServiceCard
-            name="Single Sign-On"
-            domain="sso.kantacky.com"
-            state={2}
-          />
-        </Grid>
-
-        <Grid item xs={12} md={6}>
-          <ServiceCard name="Portal" domain="portal.kantacky.com" state={2} />
         </Grid>
 
         <Grid item xs={12} md={6}>
           <ServiceCard
             name="pgAdmin4"
             domain="pgadmin.kantacky.com"
-            state={2}
+            state={0}
           />
+        </Grid>
+
+        <Grid item xs={12} md={6}>
+          <ServiceCard name="Adminer" domain="adminer.kantacky.com" state={0} />
         </Grid>
       </Grid>
     </>
@@ -78,15 +50,11 @@ export const Keiz = () => {
     <>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
-          <ServiceCard name="Keiz!" domain="www.ag-keiz.com" state={0} />
+          <ServiceCard name="Keiz!" domain="www.ag-keiz.com" state={1} />
         </Grid>
 
         <Grid item xs={12} md={6}>
           <ServiceCard name="KD System" domain="kd.ag-keiz.com" state={2} />
-        </Grid>
-
-        <Grid item xs={12} md={6}>
-          <ServiceCard name="Database" domain="db.ag-keiz.com" state={2} />
         </Grid>
 
         <Grid item xs={12} md={6}>
@@ -104,14 +72,6 @@ export const ChatLab = () => {
         <Grid item xs={12} md={6}>
           <ServiceCard name="ChatLab" domain="www.chatlab.space" state={2} />
         </Grid>
-
-        <Grid item xs={12} md={6}>
-          <ServiceCard
-            name="ChatLab Supporters"
-            domain="supporters.chatlab.space"
-            state={2}
-          />
-        </Grid>
       </Grid>
     </>
   );
@@ -123,10 +83,6 @@ export const BuLo = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
           <ServiceCard name="Keiz!" domain="www.bulo.app" state={2} />
-        </Grid>
-
-        <Grid item xs={12} md={6}>
-          <ServiceCard name="Database" domain="db.bulo.app" state={2} />
         </Grid>
 
         <Grid item xs={12} md={6}>
