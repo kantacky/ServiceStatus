@@ -6,7 +6,7 @@ export const Kantacky = () => {
     <>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
-          <ServiceCard name="Portfolio" domain="www.kantacky.com" state={1} />
+          <ServiceCard name="Portfolio" domain="www.kantacky.com" state={0} />
         </Grid>
 
         <Grid item xs={12} md={6}>
@@ -70,7 +70,7 @@ export const ChatLab = () => {
     <>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
-          <ServiceCard name="ChatLab" domain="www.chatlab.space" state={2} />
+          <ServiceCard name="ChatLab" domain="www.chatlab.space" state={0} />
         </Grid>
       </Grid>
     </>
@@ -82,7 +82,7 @@ export const BuLo = () => {
     <>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
-          <ServiceCard name="Keiz!" domain="www.bulo.app" state={2} />
+          <ServiceCard name="BuLo" domain="www.bulo.app" state={2} />
         </Grid>
 
         <Grid item xs={12} md={6}>
